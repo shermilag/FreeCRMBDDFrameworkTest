@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.015706">
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="1.015706">
+        <failure message="java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;&#13;&#10;&#9;at org.openqa.selenium.json.Json.&lt;clinit&gt;(Json.java:35)&#13;&#10;&#9;at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.constructMessage(HttpProfilerLogEntry.java:37)&#13;&#10;&#9;at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.&lt;init&gt;(HttpProfilerLogEntry.java:29)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:135)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.user_already_on_login_page(LoginStepDefinition.java:22)&#13;&#10;&#9;at ✽.Given user is already on Login Page(C:/Users/raghu/eclipse-workspace/FreeCRMBDDFrameworkTest/src/main/java/Features/login.feature:7)&#13;&#10;">
+            <![CDATA[Given user is already on Login Page.........................................failed
+When title of login page is Free CRM........................................skipped
+Then user enters "shermilag" and "cutesharmi1"..............................undefined
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+
+StackTrace:
+java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+	at org.openqa.selenium.json.Json.<clinit>(Json.java:35)
+	at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.constructMessage(HttpProfilerLogEntry.java:37)
+	at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.<init>(HttpProfilerLogEntry.java:29)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:135)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDefinitions.LoginStepDefinition.user_already_on_login_page(LoginStepDefinition.java:22)
+	at ✽.Given user is already on Login Page(C:/Users/raghu/eclipse-workspace/FreeCRMBDDFrameworkTest/src/main/java/Features/login.feature:7)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
